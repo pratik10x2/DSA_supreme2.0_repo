@@ -3,7 +3,7 @@
 using namespace std;
 
 // int main(){
-    // int arr[100]; Array declaration
+    // int arr[100]; Array declarationn
     // char brr[20];
     // int a=5;
     // cout<<"Size of a:"<<sizeof(a)<<endl;
