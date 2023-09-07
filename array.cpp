@@ -183,26 +183,46 @@ using namespace std;
                 // }
 
 //Print extreme order of array
-    void extremeorder(int arr[],int size){
-        int left =0;
-        int right=size-1;
+    // void extremeorder(int arr[],int size){
+    //     int left =0;
+    //     int right=size-1;
 
-        while(left<=right){
-            if(left == right){
-                cout<<arr[left]<<" ";
-            }
-            else{
+    //     while(left<=right){
+    //         if(left == right){
+    //             cout<<arr[left]<<" ";
+    //         }
+    //         else{
                 
-            cout<<arr[left]<<" ";
-            cout<<arr[right]<<" ";
-            }
-            left++;
-            right--;
-        }
-    }
-    int main(){
-        int arr[5]={1,2,3,4,5};
-        int size=5;
-        extremeorder(arr,size);
-    }
+    //         cout<<arr[left]<<" ";
+    //         cout<<arr[right]<<" ";
+    //         }
+    //         left++;
+    //         right--;
+    //     }
+    // }
+    // int main(){
+    //     int arr[5]={1,2,3,4,5};
+    //     int size=5;
+    //     extremeorder(arr,size);
+    // }
 
+
+
+//Print the max of array
+   
+    // void maxNum(int arr[],int size){
+    //     int max=INT_MIN;
+    //     for(int i=0;i<size;i++){
+    //         if(arr[i]>max){
+    //             max=arr[i];
+    //         }
+
+    //     }
+    //     cout<<"Maximum number is:"<<max;
+    // }
+    // int main(){
+    //     int arr[6]={1,2,3,4,5,6};
+    //     int size=6;
+    //     maxNum(arr,size);
+        
+    // }
